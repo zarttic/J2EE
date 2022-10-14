@@ -1,4 +1,4 @@
-package controller;
+package controller.day01;
 
 import javax.servlet.*;
 import java.io.*;
@@ -26,7 +26,7 @@ public class FirstServeltCode implements Servlet {
         PrintWriter out = resp.getWriter();
 //        //3. 直接输出内容到网页
         //前端代码和java后端代码耦合在一块儿了.
-        FileInputStream ip = new FileInputStream("src/main/webapp/login.html");
+        FileInputStream ip = new FileInputStream("src/main/webapp/homework_1/login.html");
         BufferedReader rd = new BufferedReader(new InputStreamReader(ip));
         String str = null;
         while ((str = rd.readLine()) != null)

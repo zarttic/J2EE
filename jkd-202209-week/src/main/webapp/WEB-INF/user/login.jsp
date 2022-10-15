@@ -20,6 +20,10 @@
 
 <%--    轮播图--%>
 <%@include file="../common/Carousel.jsp"%>
+
+<%--    缩略图--%>
+<%@include file="../common/thumbnai.jsp"%>
+
 <script src="/dev/plugins/jquery/jquery.min.js"></script>
 <script src="/dev/plugins/bootstrap/js/bootstrap.js"></script>
 </body>

@@ -9,13 +9,13 @@
     <!-- 轮播（Carousel）项目 -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="https://res.vmallres.com//uomcdn/CN/ams/202210/065E380459626D2FEA76659FB07EC3C5.jpg" alt="First slide" style="width:100%">
+            <img src="//oasisstatics.oneplus.cn/content/dam/oasis/page/2022/operation/apr/homepage/ACE-new-S.jpg.thumb.webp" alt="ip14" style="width:100%">
         </div>
         <div class="item">
-            <img src="https://res.vmallres.com/cmscdn/CN/2022-10/6e26f31787ec43208d69e8c5b93b39c3.jpg" alt="Second slide" style="width:100%">
+            <img src="//oasisstatics.oneplus.cn/content/dam/oasis/page/2022/operation/july/ovaltine/Ace-pro-S-1.jpg.thumb.webp" alt=" huawei" style="width:100%">
         </div>
         <div class="item">
-            <img src="https://res.vmallres.com/cmscdn/CN/2022-10/f217ea82410a4d089bff17e56e7b34b9.jpg" alt="Third slide" style="width:100%">
+            <img src="//oasisstatics.oneplus.cn/content/dam/oasis/page/2022/operation/may/cn/Ace-KV-S2.jpg.transform/scale-50/image.jpg" alt="iwatch2" style="width:100%">
         </div>
     </div>
     <!-- 轮播（Carousel）导航 -->

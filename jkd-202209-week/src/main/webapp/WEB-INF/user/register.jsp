@@ -1,3 +1,10 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: liyaj
+  Date: 2022/10/22
+  Time: 15:30
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" language="java" %>
 <html>
 <head>
@@ -10,9 +17,8 @@
 </head>
 <body>
 <%--导航--%>
-<%@include file="../common/nav.jsp"%>
 <%--登录--%>
-<%@include file="../common/reg.jsp"%>
+<%@include file="../common/register.jsp"%>
 <script>
     var li=document.getElementsByTagName("li");
     console.log(li);

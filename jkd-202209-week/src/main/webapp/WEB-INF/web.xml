@@ -7,19 +7,8 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
   <display-name>Archetype Created Web Application</display-name>
-  <!--  配置servlet-->
-  <servlet>
-    <!--    随意命名的,但是保证整个web.xml应该是唯一的-->
-    <servlet-name>FirstServletCode</servlet-name>
-    <!--    servlet的全限定名(包名.类名) , 底层用到java中的反射技术,通过反射的技术来构建servlet的实例-->
-    <servlet-class>controller.day01.FirstServeltCode</servlet-class>
-  </servlet>
 
   <!--  配置每个servlet的映射路径 - 唯一性-->
-  <servlet-mapping>
-    <servlet-name>FirstServletCode</servlet-name>
-    <url-pattern>/first</url-pattern>
-  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>default</servlet-name>
     <url-pattern>*.css</url-pattern>

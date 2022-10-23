@@ -11,7 +11,7 @@
 
   <name>jkd-202209-week Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://www.example.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,7 +23,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <version>4.13.2</version>
       <scope>test</scope>
     </dependency>
     <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
@@ -33,29 +33,50 @@
       <version>4.0.1</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.30</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis</artifactId>
+      <version>3.5.11</version>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.24</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>2.0.15</version>
+    </dependency>
+
+
   </dependencies>
 
-  <build>
-    <finalName>jkd-202209-week</finalName>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+    <build>
+      <finalName>jkd-202209-week</finalName>
       <plugins>
         <plugin>
           <groupId>org.apache.tomcat.maven</groupId>
           <artifactId>tomcat7-maven-plugin</artifactId>
           <version>2.2</version>
           <configuration>
-            <!-- 对应的 tomcat manager的接口-->
             <url>http://127.0.0.1:8888/manager/text</url>
             <!-- setting.xml 的server id-->
             <server>tomcat</server>
             <port>8888</port>
             <!-- web项目的项目名称-->
             <path>/dev</path>
-            <!--          处理get请求乱码的-->
+            <!--处理get请求乱码的-->
             <uriEncoding>UTF-8</uriEncoding>
           </configuration>
         </plugin>
       </plugins>
-    </pluginManagement>
-  </build>
+    </build>
 </project>
